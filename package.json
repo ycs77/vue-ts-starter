@@ -7,14 +7,14 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "@headlessui-float/vue": "^0.10.1",
+    "@headlessui-float/vue": "^0.11.0",
     "@headlessui/vue": "^1.7.4",
     "@vueuse/core": "^9.0.0",
     "vue": "^3.2.45",
     "vue-router": "^4.1.0"
   },
   "devDependencies": {
-    "@iconify-json/heroicons-outline": "^1.1.5",
+    "@iconify-json/heroicons": "^1.1.10",
     "@types/node": "^18.11.18",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/tsconfig": "^0.1.3",
