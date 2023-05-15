@@ -11,7 +11,7 @@
     "@headlessui-float/vue": "^0.11.0",
     "@headlessui/vue": "^1.7.4",
     "@vueuse/core": "^10.0.0",
-    "vue": "^3.2.45",
+    "vue": "^3.3.0",
     "vue-router": "^4.1.0"
   },
   "devDependencies": {
