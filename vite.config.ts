@@ -11,7 +11,11 @@ import { HeadlessUiFloatResolver } from '@headlessui-float/vue'
 
 export default defineConfig({
   plugins: [
-    Vue(),
+    Vue({
+      script: {
+        defineModel: true,
+      },
+    }),
     AutoImport({
       imports: [
         'vue',
