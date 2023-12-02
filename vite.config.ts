@@ -18,8 +18,10 @@ export default defineConfig({
     AutoImport({
       imports: [
         'vue',
-        'vue-router',
-        '@vueuse/core',
+        {
+          'vue-router': ['useRoute', 'useRouter'],
+          '@vueuse/core': [],
+        },
       ],
       dirs: ['src/composables'],
       dts: 'src/shims/auto-imports.d.ts',
