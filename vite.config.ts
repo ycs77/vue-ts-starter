@@ -19,8 +19,9 @@ export default defineConfig({
           '@vueuse/core': [],
         },
       ],
-      dirs: ['src/composables'],
+      dirs: ['src/composables', 'src/utils'],
       dts: 'src/shims/auto-imports.d.ts',
+      vueTemplate: true,
     }),
     Components({
       resolvers: [
