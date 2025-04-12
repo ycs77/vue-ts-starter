@@ -2,6 +2,7 @@ import { URL, fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import VueDevTools from 'vite-plugin-vue-devtools'
+import TailwindCss from '@tailwindcss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import Pages from 'vite-plugin-pages'
@@ -13,6 +14,7 @@ export default defineConfig({
   plugins: [
     Vue(),
     VueDevTools(),
+    TailwindCss(),
     AutoImport({
       imports: [
         'vue',
