@@ -11,6 +11,7 @@
     "src/shims/env.d.ts",
     "src/shims/components.d.ts",
     "src/shims/auto-imports.d.ts",
+    "src/shims/typed-router.d.ts",
     "src/**/*",
     "src/**/*.vue"
   ],

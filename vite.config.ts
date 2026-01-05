@@ -1,16 +1,19 @@
 import { URL, fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
+import VueRouter from 'unplugin-vue-router/vite'
 import VueDevTools from 'vite-plugin-vue-devtools'
 import TailwindCSS from '@tailwindcss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
-import Pages from 'vite-plugin-pages'
 import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 
 export default defineConfig({
   plugins: [
+    VueRouter({
+      dts: 'src/shims/typed-router.d.ts',
+    }),
     Vue(),
     VueDevTools(),
     TailwindCSS(),
@@ -32,7 +35,6 @@ export default defineConfig({
       ],
       dts: 'src/shims/components.d.ts',
     }),
-    Pages(),
     Icons(),
   ],
   resolve: {
