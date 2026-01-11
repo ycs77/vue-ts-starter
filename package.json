@@ -2,7 +2,7 @@
   "type": "module",
   "private": true,
   "engines": {
-    "node": ">=22"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "vite",
@@ -21,8 +21,8 @@
   "devDependencies": {
     "@iconify-json/heroicons": "^1.2.0",
     "@tailwindcss/vite": "^4.1.0",
-    "@tsconfig/node22": "^22.0.0",
-    "@types/node": "^22.0.0",
+    "@tsconfig/node24": "^24.0.0",
+    "@types/node": "^24.0.0",
     "@vitejs/plugin-vue": "^6.0.0",
     "@vue/tsconfig": "^0.8.1",
     "npm-run-all2": "^8.0.4",
