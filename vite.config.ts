@@ -1,7 +1,7 @@
 import { URL, fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
-import VueRouter from 'unplugin-vue-router/vite'
+import VueRouter from 'vue-router/vite'
 import VueDevTools from 'vite-plugin-vue-devtools'
 import TailwindCSS from '@tailwindcss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
@@ -12,7 +12,7 @@ import IconsResolver from 'unplugin-icons/resolver'
 export default defineConfig({
   plugins: [
     VueRouter({
-      dts: 'src/shims/typed-router.d.ts',
+      dts: 'src/shims/route-map.d.ts',
     }),
     Vue(),
     VueDevTools(),
