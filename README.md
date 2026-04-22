@@ -5,6 +5,6 @@
 ## Installation
 
 ```bash
-yarn
-yarn dev
+pnpm install
+pnpm dev
 ```
