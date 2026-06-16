@@ -2,7 +2,6 @@ import { URL, fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import VueRouter from 'vue-router/vite'
-import VueDevTools from 'vite-plugin-vue-devtools'
 import TailwindCSS from '@tailwindcss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
@@ -15,7 +14,6 @@ export default defineConfig({
       dts: 'src/shims/route-map.d.ts',
     }),
     Vue(),
-    VueDevTools(),
     TailwindCSS(),
     AutoImport({
       imports: [
