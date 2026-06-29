@@ -9,8 +9,6 @@
   },
   "include": [
     "src/shims/env.d.ts",
-    "src/shims/components.d.ts",
-    "src/shims/auto-imports.d.ts",
     "src/shims/route-map.d.ts",
     "src/**/*",
     "src/**/*.vue"
