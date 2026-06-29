@@ -10,7 +10,8 @@
     "build": "run-p typecheck \"build-only {@}\" --",
     "build-only": "vite build",
     "preview": "vite preview",
-    "typecheck": "vue-tsc --build"
+    "typecheck": "vue-tsc --build",
+    "check": "run-p typecheck"
   },
   "dependencies": {
     "@vueuse/core": "^14.0.0",
