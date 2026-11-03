@@ -3,7 +3,7 @@
   "private": true,
   "packageManager": "pnpm@12.5.1",
   "engines": {
-    "node": "26.x"
+    "node": ">=24.0.0"
   },
   "scripts": {
     "dev": "vite",
@@ -17,16 +17,16 @@
     "@vueuse/core": "^15.0.0",
     "cn": "^0.5.2",
     "vue": "^3.5.0",
-    "vue-router": "^5.3.0"
+    "vue-router": "^5.4.0"
   },
   "devDependencies": {
     "@iconify-json/heroicons": "^1.2.3",
     "@tailwindcss/vite": "^4.3.0",
     "@tsconfig/node26": "^26.0.0",
     "@types/node": "^26.0.0",
-    "@vitejs/plugin-vue": "^6.0.9",
+    "@vitejs/plugin-vue": "^6.0.0",
     "@vue/tsconfig": "^0.9.1",
-    "npm-run-all2": "^9.0.3",
+    "npm-run-all2": "^9.0.4",
     "tailwindcss": "^4.3.0",
     "typescript": "~6.0.3",
     "unplugin-icons": "^24.0.0",
