@@ -13,6 +13,8 @@ dist
 dist-ssr
 coverage
 *.local
+*.tsbuildinfo
+.eslintcache
 
 # Editor directories and files
 .idea
@@ -21,9 +23,6 @@ coverage
 *.njsproj
 *.sln
 *.sw?
-
-*.tsbuildinfo
-.eslintcache
 
 # Cypress
 /cypress/videos/
